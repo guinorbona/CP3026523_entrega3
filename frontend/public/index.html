@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Solicitar Código</title>
+</head>
+<body>
+<h1>Solicitar código de acesso</h1>
+
+<form action="/send-code" method="POST">
+    <label for="email">E-mail:</label>
+    <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Digite seu e-mail"
+    >
+
+    <button type="submit">Enviar código</button>
+</form>
+</body>
+</html>
